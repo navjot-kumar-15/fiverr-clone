@@ -1,0 +1,27 @@
+.trusted {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(239, 239, 239, 0.822);
+  padding: 0.8rem;
+  //   border: 2px solid red;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    gap: 1rem;
+    span {
+      text-transform: uppercase;
+      font-weight: 600;
+      color: grey;
+      letter-spacing: 2px;
+    }
+    img {
+      height: 8vh;
+      object-fit: contain;
+    }
+  }
+}
+
+
